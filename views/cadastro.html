@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../public/css/findhere.css">
+</head>
+<body>
+	<center><h1><b>Find</b><span style="color: #2e6da4"><b>Here</b></span></h1></center>
+	<div class="container">
+		<div class="row">
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Nome Completo</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nome Completo" required>
+								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="InputEmail">Seu Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email" required  >
+								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="InputLogin">Seu Login</label>
+						<div class="input-group">
+							<input type="text" class="form-control" id="InputLogin" name="InputLogin" placeholder="Login" required  >
+								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="InputSenha">Sua Senha</label>
+						<div class="input-group">
+							<input type="password" class="form-control" id="InputSenha" name="InputSenha" placeholder="Senha" required  >
+								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" onclick="realizarCadastro()" type="button">Cadastrar</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+	<script src="../public/bootstrap/js/jquery.js"></script>
+    <script src="../public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../renderer.js"></script>
+    <script src="../public/js/controller.js"></script>
+</html>

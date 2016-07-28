@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FindHere</title>
+        <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./public/css/findhere.css">
+    </head>
+    <body>
+        <center><h1><b>Find</b><span style="color: #2e6da4"><b>Here</b></span></h1></center>
+        <div class="container">
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Logue-se!</h2>
+                <label for="login" class="sr-only">Login</label>
+                <input type="text" id="login" class="form-control" placeholder="Login" maxlength="32" required autofocus>
+                <label for="senha" class="sr-only">Senha</label>
+                <input type="password" id="senha" class="form-control"  placeholder="Senha" maxlength="32" required>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Lembrar de mim
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" onclick="realizarLogin()" type="button">Logar</button>
+            </form>
+            <br/>
+            <div>
+                <h3>Não possui cadastro?</h3>
+                <a href="./views/cadastro.html"> <button class="btn btn-lg btn-primary btn-block" type="button">Se cadastre aqui!</button></a>
+
+            </div>
+        </div> <!-- container -->
+
+    </body>
+    <script src="./public/bootstrap/js/jquery.js"></script>
+    <script src="./public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./renderer.js"></script>
+    <script src="./public/js/controller.js"></script>
+</html>
