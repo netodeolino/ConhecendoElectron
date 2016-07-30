@@ -1,5 +1,11 @@
 # ConhecendoElectron
-Conhecendo um pouco de Node.js, Electron e Bootstrap
+Conhecendo um pouco de Node.js e Electron
+
+## Tecnologias Utilizadas
+- Node.js
+- Electron
+- Bootstrap
+- MySQL
 
 <br/>
 
