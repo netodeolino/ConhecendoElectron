@@ -1,0 +1,1 @@
+/* Configure all clicks and buttons here */
