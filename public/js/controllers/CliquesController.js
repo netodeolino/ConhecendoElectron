@@ -8,3 +8,7 @@ function redirectPreviusView (params) {
 function redirectNextView (params) {
 	// Continue...
 }
+
+function cancelButtonGeral () {
+	// Continue...
+}
