@@ -12,6 +12,7 @@ function realizarLogin() {
 			console.log(usuario);
 		}else{
 			alert("Login ou Senha Inválido!");
+			console.log("Login ou Senha Inválido!"); // PARA DEBUG
 		}
 	});
 }
@@ -36,6 +37,7 @@ function realizarCadastro() {
 				location.href = "./../index.html";
 			}else{
 				alert('Erro no Cadastro!');
+				console.log("Erro no cadastro!"); // PARA DEBUG
 			}
 		});
 }
