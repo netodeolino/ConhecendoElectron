@@ -16,4 +16,8 @@ Conhecendo um pouco de Node.js e Electron
 
 <br/>
 
-Neto Deolino – linkedin.com/in/netodeolino
+####Neto Deolino
+<ol>
+    <li> https://linkedin.com/in/netodeolino </li>
+    <li> https://netodeolino.github.io </li>
+</ol>
